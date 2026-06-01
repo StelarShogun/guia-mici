@@ -2,27 +2,23 @@
 
 Aplicacion educativa para estudiar el examen de Metodos de Investigacion Cientifica en Informatica, basada en las clases 6, 8 y 9.
 
-## Version estatica para Vercel
+## Despliegue en Vercel
 
-El sitio desplegable esta en `public/`. Vercel ejecuta:
+Este repositorio esta preparado como sitio estatico. Vercel debe usar:
+
+- Framework preset: Other
+- Build command: `npm run build`
+- Output directory: `dist`
+
+El comando de build copia el contenido de `public/` a `dist/`:
 
 ```bash
 npm run build
 ```
 
-Ese comando copia `public/` a `dist/`, que es la carpeta publicada.
-
 ## Uso local
 
 Para abrir la version estatica, abre `public/index.html` en el navegador.
-
-Para usar la version con backend local:
-
-```bash
-./run.sh
-```
-
-Luego abre `http://127.0.0.1:8000/`.
 
 ## Contenido
 

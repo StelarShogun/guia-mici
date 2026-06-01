@@ -2,7 +2,5 @@
 __pycache__/
 *.pyc
 .DS_Store
-data/study_app.sqlite3
-backend/__pycache__/
 dist/
 legacy_static/
