@@ -1,0 +1,1 @@
+<!-- Shared assets are referenced directly in each page. -->

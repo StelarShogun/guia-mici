@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checklist | StudyLab</title>
+  <link rel="stylesheet" href="/vendor/sweetalert2.min.css">
+  <link rel="stylesheet" href="/assets/css/app.css">
+  <script src="/vendor/sweetalert2.local.js" defer></script>
+  <script src="/assets/js/app.js" defer></script>
+</head>
+<body data-page="checklist">
+  <header class="site-header">
+    <nav class="top-nav">
+      <a class="brand" href="/">StudyLab</a>
+      <div class="nav-links">
+        <a href="/" data-nav="inicio">Inicio</a>
+        <a href="/teoria.html" data-nav="teoria">Teoría</a>
+        <a href="/preguntas.html" data-nav="preguntas">Preguntas</a>
+        <a href="/graficas.html" data-nav="graficas">Gráficas</a>
+        <a href="/simulador.html" data-nav="simulador">Simulador</a>
+        <a href="/checklist.html" data-nav="checklist">Checklist</a>
+        <a href="/admin.html" data-nav="admin">Admin</a>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="page-title">
+      <span class="kicker">Progreso local</span>
+      <h1>Checklist antes del examen</h1>
+      <p>El avance se guarda en localStorage por materia, sin requerir cuenta de estudiante.</p>
+      <div class="toolbar"><select id="courseSelector"></select></div>
+    </section>
+    <section class="panel">
+      <strong id="checkProgress">Progreso: 0 de 0 completado</strong>
+      <div class="progress-track"><span id="progressBar"></span></div>
+      <div id="checklist"></div>
+    </section>
+  </main>
+  <footer class="site-footer"><a href="/">Volver al inicio</a></footer>
+</body>
+</html>

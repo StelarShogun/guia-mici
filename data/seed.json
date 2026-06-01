@@ -1,0 +1,407 @@
+{
+  "courses": [
+    {
+      "id": "mici",
+      "title": "Métodos de Investigación Científica en Informática",
+      "subtitle": "Preparación para examen: Clases 6, 8 y 9",
+      "description": "Guía interactiva para reforzar planteamiento del problema, recolección de datos, estadística descriptiva, interpretación visual y ética en investigación.",
+      "modules": [
+        {
+          "id": "clase-06",
+          "title": "Clase 06: Planteamiento del problema y redacción académica",
+          "summary": "Objetivos, redacción académica, conectores, metodología, resultados y discusión.",
+          "blocks": [
+            {
+              "title": "Mapa de la Clase 06",
+              "content": "\n<p>La Clase 06 se ubica en la unidad de planteamiento del problema de investigación. Su foco está en convertir una idea general en un texto académico defendible: objetivos claros, introducción organizada, metodología detallada, resultados presentados con orden y discusión honesta.</p>\n<p>La lógica central es esta: si el objetivo está mal redactado, la metodología queda débil; si la metodología no explica dónde, cuándo y cómo se hizo el estudio, los resultados pierden credibilidad; si los resultados no se introducen y discuten, la investigación queda como una lista de datos sin interpretación.</p>\n<div class=\"formula\">Idea de investigación → objetivo claro → metodología reproducible → resultados ordenados → discusión interpretativa.</div>\n"
+            },
+            {
+              "title": "Redacción de objetivos: fórmula y función",
+              "content": "\n<p>Un objetivo académico no es una intención general ni una frase decorativa. Es una guía de trabajo que indica exactamente qué acción investigativa se realizará. La estructura recomendada es:</p>\n<div class=\"formula\">Verbo en infinitivo + ¿qué? + ¿cómo? + ¿para qué o para quién?</div>\n<p>El verbo debe ser observable y evaluable. Verbos como <strong>analizar</strong>, <strong>comparar</strong>, <strong>evaluar</strong>, <strong>describir</strong>, <strong>determinar</strong>, <strong>identificar</strong> o <strong>medir</strong> ayudan a conectar el objetivo con datos y métodos. En cambio, verbos demasiado amplios como “conocer” o “entender” pueden quedar vagos si no se especifica cómo se comprobará el logro.</p>\n<div class=\"example\"><strong>Ejemplo del curso adaptado a informática:</strong> Comparar la velocidad del computador cuántico Sycamore de Google frente al supercomputador Frontier de HP mediante análisis de MIPS y GFLOPS para orientar el rediseño de procesadores usados en mercados de Big Data.</div>\n<div class=\"parts-grid\">\n  <div class=\"part-card\"><strong>Verbo</strong><span>Comparar.</span></div>\n  <div class=\"part-card\"><strong>Qué</strong><span>la velocidad de dos arquitecturas computacionales.</span></div>\n  <div class=\"part-card\"><strong>Cómo</strong><span>mediante métricas como MIPS y GFLOPS.</span></div>\n  <div class=\"part-card\"><strong>Para qué</strong><span>para orientar decisiones de rediseño o evaluación tecnológica.</span></div>\n</div>\n<p>Un objetivo completo evita ambigüedad. También permite decidir cuáles datos son necesarios y cuáles no. Si el objetivo menciona eficiencia, se esperan métricas de rendimiento; si menciona percepción de usuarios, se esperan instrumentos de recolección como encuestas o entrevistas.</p>\n"
+            },
+            {
+              "title": "Errores frecuentes de redacción académica",
+              "content": "\n<p>La redacción académica busca que el lector evalúe argumentos y evidencia, no impresiones personales. La Clase 06 insiste en varios errores comunes que debilitan una introducción o desarrollo.</p>\n<ul class=\"clean-list\">\n  <li><strong>Párrafos de una sola oración:</strong> suelen presentar una idea sin desarrollarla. Un párrafo académico debe introducir, ampliar y conectar ideas.</li>\n  <li><strong>Primera persona:</strong> expresiones como “yo creo”, “nos damos cuenta” o “podemos concluir” deben reemplazarse por formulaciones objetivas.</li>\n  <li><strong>Juicios de valor:</strong> frases como “es un gran curso” o “aporta mucho” no son académicas si no se apoyan con datos o criterios.</li>\n  <li><strong>Adjetivos absolutos:</strong> “el mejor”, “muy rápido”, “excelente” o “importantísimo” deben transformarse en afirmaciones medibles.</li>\n  <li><strong>Falta de evidencia:</strong> toda afirmación fuerte necesita fuente, medición, comparación o dato.</li>\n</ul>\n<div class=\"warning\"><strong>Débil:</strong> “Con esto nos damos cuenta de que gran parte del problema recae en las inmensas cantidades de plástico”.</div>\n<div class=\"example\"><strong>Más académico:</strong> “Según los datos reportados por la fuente consultada, una proporción significativa de los residuos analizados corresponde a plásticos de un solo uso”.</div>\n<div class=\"formula\">Opinión + primera persona + adjetivo general = redacción débil. Dato + fuente + contexto = redacción académica.</div>\n"
+            },
+            {
+              "title": "Cómo construir párrafos académicos",
+              "content": "\n<p>Un párrafo académico no debe ser una oración aislada. Debe desarrollar una unidad de sentido. Una estructura útil es:</p>\n<ul class=\"clean-list\">\n  <li><strong>Oración temática:</strong> introduce la idea principal.</li>\n  <li><strong>Desarrollo:</strong> agrega explicación, contexto, evidencia o comparación.</li>\n  <li><strong>Conexión:</strong> enlaza con el problema de investigación o con el siguiente párrafo.</li>\n</ul>\n<p>La clase recomienda no empezar directamente en la computadora. Una estrategia más sólida es usar una hoja en blanco, lápiz y papel para hacer un esquema de los elementos conceptuales antes de redactar. Esto ayuda a evitar textos desordenados.</p>\n<p>Para la introducción se sugiere avanzar de lo general a lo específico. Los elementos conceptuales provienen del título de investigación. Si el tema fuera “impacto social, ambiental y económico del cultivo de café en una región durante un periodo determinado”, los párrafos podrían organizarse por contexto geográfico, cultivo, impacto social, impacto ambiental e impacto económico.</p>\n<div class=\"example\"><strong>Idea clave:</strong> la introducción debe darle a un lector desconocido la información mínima para entender qué fenómeno se estudia, dónde ocurre, por qué importa y qué dimensiones lo componen.</div>\n"
+            },
+            {
+              "title": "Conectores: función y clasificación amplia",
+              "content": "\n<p>Los conectores unen palabras, ideas, frases, oraciones y párrafos. Su función es hacer que la redacción sea fluida, organizada y coherente. No son relleno; indican la relación lógica entre ideas.</p>\n<table>\n  <thead><tr><th>Tipo</th><th>Uso</th><th>Ejemplos</th></tr></thead>\n  <tbody>\n    <tr><td>Adición</td><td>Sumar información compatible.</td><td>además, también, asimismo, de igual forma, incluso.</td></tr>\n    <tr><td>Contraste u oposición</td><td>Marcar diferencia, límite o contradicción.</td><td>sin embargo, no obstante, por el contrario, aunque, en cambio.</td></tr>\n    <tr><td>Causa/efecto</td><td>Conectar causa, resultado o consecuencia.</td><td>porque, debido a, por consiguiente, por lo tanto, en consecuencia.</td></tr>\n    <tr><td>Tiempo</td><td>Ordenar eventos temporalmente.</td><td>después, antes, posteriormente, simultáneamente, actualmente.</td></tr>\n    <tr><td>Ejemplificación o explicación</td><td>Aclarar una idea con ejemplo o reformulación.</td><td>por ejemplo, es decir, a saber, en otras palabras.</td></tr>\n    <tr><td>Semejanza o comparación</td><td>Relacionar elementos similares o comparables.</td><td>del mismo modo, igualmente, análogamente, de manera similar.</td></tr>\n    <tr><td>Conclusión o síntesis</td><td>Cerrar una idea o resumir lo tratado.</td><td>en conclusión, en resumen, finalmente, en síntesis.</td></tr>\n  </tbody>\n</table>\n<p><strong>“Por consiguiente”</strong> es un conector consecutivo de causa/efecto. Debe usarse cuando una idea deriva de otra. Si no hay relación de consecuencia, el conector queda mal utilizado.</p>\n"
+            },
+            {
+              "title": "Metodología: dónde, cuándo y cómo",
+              "content": "\n<p>La metodología debe redactarse en párrafos detallados. Su propósito es explicar cómo se realizó la investigación, de modo que el lector pueda evaluar la calidad del procedimiento.</p>\n<div class=\"parts-grid three\">\n  <div class=\"part-card\"><strong>Dónde</strong><span>País, provincia, cantón, distrito, institución, coordenadas o descripción geográfica si aplica.</span></div>\n  <div class=\"part-card\"><strong>Cuándo</strong><span>Año, meses, días, horas, duración, frecuencia de muestreo o periodo de búsqueda.</span></div>\n  <div class=\"part-card\"><strong>Cómo</strong><span>Técnicas, instrumentos, equipos, modelos, software, personal, análisis y pruebas estadísticas.</span></div>\n</div>\n<p>En investigaciones aplicadas se deben describir instrumentos y procedimientos. Si se usó un equipo, conviene indicar marca, modelo o versión. Si se usó software, se debe indicar cuál y para qué. Si se aplicó análisis estadístico, debe quedar claro qué prueba o procedimiento se utilizó.</p>\n<div class=\"example\"><strong>Ejemplo adaptado a informática:</strong> “Las pruebas de rendimiento se ejecutaron durante cuatro semanas en un servidor con características especificadas. Se registró tiempo de respuesta, uso de memoria y errores por solicitud. Los datos fueron organizados en una hoja de cálculo y analizados con software estadístico”.</div>\n"
+            },
+            {
+              "title": "Metodología en revisión bibliográfica",
+              "content": "\n<p>Cuando la investigación es una revisión bibliográfica, la metodología debe explicar el proceso de búsqueda y selección de fuentes. No basta con afirmar que “se buscó información”. Debe poder evaluarse la intensidad, transparencia y reproducibilidad de la búsqueda.</p>\n<ul class=\"clean-list\">\n  <li>Motores o bases consultadas: Google Académico, Redalyc, Refseek, SciELO, Dialnet, repositorios institucionales u otros.</li>\n  <li>Palabras clave utilizadas.</li>\n  <li>Operadores booleanos: AND, OR, NOT y comillas para búsquedas exactas.</li>\n  <li>Tiempo efectivo de búsqueda.</li>\n  <li>Cantidad de personas involucradas.</li>\n  <li>Cantidad aproximada de fuentes encontradas, revisadas y seleccionadas.</li>\n  <li>Criterios de inclusión y exclusión.</li>\n  <li>Gestor bibliográfico o software utilizado para organizar información.</li>\n</ul>\n<p>El objetivo es mostrar que la revisión no fue casual. Una revisión fuerte explica qué se buscó, dónde se buscó, durante cuánto tiempo, con qué criterios y cómo se eligieron las fuentes finales.</p>\n"
+            },
+            {
+              "title": "Resultados",
+              "content": "\n<p>Los resultados describen lo que se obtuvo mediante los métodos aplicados. Deben incluir análisis cuantitativo y cualitativo cuando corresponda. Si se usan figuras, cuadros, mapas o fotografías, siempre deben estar integrados al texto.</p>\n<ul class=\"clean-list\">\n  <li>Antes de cada figura debe aparecer un párrafo descriptivo general.</li>\n  <li>La figura debe citarse en el texto antes de presentarse.</li>\n  <li>La información estadística debe reportarse formalmente.</li>\n  <li>Las figuras deben numerarse y tener títulos descriptivos exhaustivos.</li>\n  <li>El título debe incluir variable, población o contexto, lugar y año si aplica.</li>\n</ul>\n<div class=\"example\"><strong>Ejemplo de título:</strong> “Figura 2. Autopercepción del nivel de inglés de estudiantes de Ingeniería en Sistemas de Información, Campus Sarapiquí, UNA, 2024”.</div>\n<p>La figura no sustituye la explicación. El texto debe guiar al lector sobre qué observar y por qué ese resultado importa para la pregunta de investigación.</p>\n"
+            },
+            {
+              "title": "Discusión",
+              "content": "\n<p>La discusión es la parte interpretativa del trabajo. No se limita a repetir resultados; explica qué significan, cómo se relacionan con la hipótesis y si coinciden o no con estudios previos.</p>\n<ul class=\"clean-list\">\n  <li>Explicar cada resultado importante.</li>\n  <li>Indicar si el resultado concuerda con la hipótesis.</li>\n  <li>Indicar si el resultado no concuerda con la hipótesis y ser honesto al respecto.</li>\n  <li>Comparar con literatura y estudios previos.</li>\n  <li>Proponer explicaciones posibles cuando no se tiene toda la información.</li>\n  <li>Sugerir futuras líneas de investigación.</li>\n</ul>\n<p>La discusión es creativa, pero no arbitraria. Puede proponer interpretaciones, pero deben estar conectadas con los datos, el método y la literatura.</p>\n"
+            }
+          ]
+        },
+        {
+          "id": "clase-08",
+          "title": "Clase 08: Fundamentos de recolección de datos",
+          "summary": "Datos útiles, precisión, exactitud, población, muestra y tipos de datos.",
+          "blocks": [
+            {
+              "title": "Mapa de la Clase 08",
+              "content": "\n<p>La Clase 08 introduce la recolección de datos dentro de la unidad de análisis de datos. La pregunta central es qué medir, por qué medirlo y cómo evitar datos inútiles. En informática esto es especialmente importante porque casi todo sistema produce métricas: tiempos, clics, memoria, CPU, errores, versiones, usuarios, latencia y registros.</p>\n<div class=\"formula\">No se mide todo lo disponible; se mide lo que responde al problema, objetivos e hipótesis.</div>\n<p>La clase conecta teoría, hipótesis, diseño experimental, muestreo y tipos de datos. La estadística aparece como herramienta para describir y analizar, pero no corrige un problema de investigación mal planteado.</p>\n"
+            },
+            {
+              "title": "¿Qué medir en informática?",
+              "content": "\n<p>La recolección de datos parte de una decisión teórica: se deben medir variables que la teoría pueda predecir o explicar. Si los datos no se relacionan con la hipótesis o los objetivos, pueden ser técnicamente correctos pero científicamente inútiles.</p>\n<ul class=\"clean-list\">\n  <li>Si se estudia rendimiento, pueden medirse tiempo de respuesta, memoria, CPU o throughput.</li>\n  <li>Si se estudia usabilidad, pueden medirse errores de usuario, satisfacción, tiempo de tarea o tasa de finalización.</li>\n  <li>Si se estudia aprendizaje, pueden medirse calificaciones, tiempo de estudio, asistencia o participación.</li>\n  <li>Si se estudia seguridad, pueden medirse vulnerabilidades, intentos fallidos, tiempo de detección o severidad.</li>\n</ul>\n<p>La teoría ayuda a decidir cuáles variables tienen sentido. Sin teoría, se corre el riesgo de recolectar datos aislados que no explican el fenómeno.</p>\n"
+            },
+            {
+              "title": "Precisión y exactitud",
+              "content": "\n<p>La clase distingue dos propiedades de las mediciones:</p>\n<ul class=\"clean-list\">\n  <li><strong>Precisión:</strong> dispersión del conjunto de valores obtenidos por mediciones repetidas. A menor dispersión, mayor precisión.</li>\n  <li><strong>Exactitud:</strong> cercanía entre el valor medido y el valor real o de referencia.</li>\n</ul>\n<p>Un instrumento puede ser preciso pero no exacto si produce mediciones muy parecidas entre sí, pero alejadas del valor real. También puede ser relativamente exacto en promedio, pero poco preciso si sus mediciones varían mucho.</p>\n<div class=\"example\"><strong>Ejemplo:</strong> si una herramienta mide repetidamente una latencia de 100 ms cuando el valor real es 80 ms, puede ser precisa pero inexacta. Si mide 70, 85, 95 y 75 ms, quizá esté más cerca del valor real en promedio, pero con baja precisión.</div>\n"
+            },
+            {
+              "title": "Datos inútiles y Regla #1",
+              "content": "\n<div class=\"formula\">Regla #1: no todo lo que es medible se debe medir.</div>\n<p>Los datos inútiles tienen una o varias de estas características:</p>\n<ul class=\"clean-list\">\n  <li>Son imprecisos, inexactos o irrepetibles.</li>\n  <li>No responden a la pregunta de investigación.</li>\n  <li>Se tomaron en el momento equivocado.</li>\n  <li>Provienen de un diseño experimental pobre.</li>\n  <li>Impiden un análisis estadístico robusto.</li>\n</ul>\n<p>Un dato útil debe estar fundamentado en teoría y contribuir al avance del campo. La utilidad no depende de que el dato sea interesante, sino de que sea pertinente para los objetivos.</p>\n"
+            },
+            {
+              "title": "Regla #2: problema y objetivos claros",
+              "content": "\n<p>La Clase 08 afirma que primero se debe encontrar un problema importante y establecer objetivos claramente. Un problema importante puede tener ramificaciones académicas, implicaciones prácticas o relevancia social, económica, ambiental o humana.</p>\n<p>El objetivo debe ayudar a responder una pregunta o probar una hipótesis. Si el problema es débil o los objetivos son ambiguos, ninguna técnica estadística puede salvar la investigación.</p>\n<div class=\"warning\"><strong>Idea clave:</strong> la estadística organiza, resume y analiza datos, pero no convierte una mala pregunta en una buena investigación.</div>\n"
+            },
+            {
+              "title": "Regla #3: datos que logren objetivos",
+              "content": "\n<p>La recolección debe generar datos que permitan cumplir los objetivos y, además, que sean analizables. Algunas preguntas son interesantes, pero imprácticas estadísticamente por costo, tiempo, espacio, esfuerzo o tamaño de muestra.</p>\n<ul class=\"clean-list\">\n  <li>Una pregunta puede ser valiosa, pero imposible de probar con los recursos disponibles.</li>\n  <li>Un diseño puede ser conceptualmente atractivo, pero inviable por costo económico o esfuerzo humano.</li>\n  <li>Un dato puede existir, pero no estar disponible con la calidad necesaria.</li>\n</ul>\n<p>Un buen diseño no solo pregunta “qué quiero saber”, sino también “qué puedo medir de forma válida, repetible y analizabile”.</p>\n"
+            },
+            {
+              "title": "Regla #4: preguntas imposibles en el presente",
+              "content": "\n<p>Algunas preguntas no pueden responderse en el presente. Esto no significa que sean malas preguntas, sino que quizá requieren tecnología, datos, muestra, tiempo o recursos que aún no están disponibles.</p>\n<p>Reconocer esta limitación evita gastar dinero, esfuerzo, estrés y tiempo en un diseño inviable. En investigación, delimitar también es una forma de rigor.</p>\n<div class=\"example\"><strong>Ejemplo:</strong> una pregunta sobre el comportamiento de todos los usuarios de una plataforma global puede ser imposible para un curso si no se tiene acceso a registros reales, permisos, infraestructura y muestra suficiente.</div>\n"
+            },
+            {
+              "title": "Regla #5: eventos controlables y no controlables",
+              "content": "\n<p>La clase plantea preguntar si se estudian eventos que el investigador puede controlar o eventos fuera de su control. Esta diferencia afecta el muestreo y el diseño experimental.</p>\n<ul class=\"clean-list\">\n  <li><strong>Eventos controlables:</strong> permiten manipular condiciones, por ejemplo, comparar algoritmos bajo la misma carga.</li>\n  <li><strong>Eventos no controlables:</strong> requieren observación o muestreo, por ejemplo, comportamiento real de usuarios en una plataforma.</li>\n</ul>\n<p>La estrategia de muestreo depende del tipo de evento. No se diseña igual un experimento de laboratorio que una observación de campo o una revisión documental.</p>\n"
+            },
+            {
+              "title": "Población, muestra y diseño experimental",
+              "content": "\n<p><strong>Población estadística</strong> es el conjunto completo de datos acerca del cual se desea elaborar conclusiones. <strong>Muestra estadística</strong> es el subconjunto medido a partir del cual se hacen inferencias.</p>\n<p>Para medir una muestra se necesita un método apropiado, y ese método depende de la pregunta. El muestreo aleatorio fortalece la legitimidad de las conclusiones porque reduce sesgos de selección.</p>\n<p>El diseño experimental incluye la selección de variables a estudiar y el plan de muestreo. Si se eligen mal las variables o se toma una muestra deficiente, los resultados pueden ser poco confiables aunque los cálculos estén bien hechos.</p>\n"
+            },
+            {
+              "title": "Métodos estadísticos y tipos de datos",
+              "content": "\n<p>Los métodos estadísticos son procedimientos cuantitativos que permiten describir y analizar conjuntos de datos, elaborar conclusiones sobre conjuntos más grandes y estimar diferencias o relaciones entre conjuntos de datos.</p>\n<table>\n  <thead><tr><th>Familia</th><th>Tipo</th><th>Descripción</th><th>Ejemplos</th></tr></thead>\n  <tbody>\n    <tr><td>Cualitativos</td><td>Nominales</td><td>Categorías sin orden.</td><td>Color, sexo, sistema operativo.</td></tr>\n    <tr><td>Cualitativos</td><td>Ordinales</td><td>Categorías con orden.</td><td>Bajo, medio, alto; versión 1, 2, 3.</td></tr>\n    <tr><td>Cuantitativos</td><td>Discretos</td><td>Solo ciertos valores, usualmente conteos.</td><td>Número de errores, usuarios, pérdidas de conexión.</td></tr>\n    <tr><td>Cuantitativos</td><td>Continuos</td><td>Cualquier valor dentro de un intervalo.</td><td>Altura, peso, velocidad, tiempo de respuesta.</td></tr>\n  </tbody>\n</table>\n<p>Los datos categóricos se representan con frecuencias. Los datos numéricos pueden representarse con dispersión, líneas, histogramas o barras con error, según la pregunta.</p>\n"
+            }
+          ]
+        },
+        {
+          "id": "clase-09",
+          "title": "Clase 09: Estadística descriptiva, análisis gráfico y ética",
+          "summary": "Tendencia central, variación, gráficas e integridad científica.",
+          "blocks": [
+            {
+              "title": "Mapa de la Clase 09",
+              "content": "\n<p>La Clase 09 profundiza el análisis y discusión de datos cualitativos y cuantitativos, la estadística descriptiva y la ética en investigación. Une tres dimensiones: clasificar datos, resumirlos con medidas estadísticas e interpretarlos con responsabilidad científica.</p>\n<div class=\"formula\">Tipo de dato → representación gráfica → medida descriptiva → interpretación ética y académica.</div>\n"
+            },
+            {
+              "title": "Datos categóricos y numéricos",
+              "content": "\n<p>Los datos categóricos son observaciones cualitativas. Se usan para clasificar objetos o casos. Pueden ser nominales u ordinales.</p>\n<ul class=\"clean-list\">\n  <li><strong>Nominales:</strong> categorías no ordenadas, como color, sexo, estado civil o sistema operativo.</li>\n  <li><strong>Ordinales:</strong> categorías ordenadas, como pre-reproductor, reproductor, post-reproductor o versiones 1, 2 y 3 de un software.</li>\n</ul>\n<p>Los datos numéricos son observaciones cuantitativas. Pueden ser discretos o continuos.</p>\n<ul class=\"clean-list\">\n  <li><strong>Discretos:</strong> solo permiten ciertos valores, normalmente conteos.</li>\n  <li><strong>Continuos:</strong> pueden tomar cualquier valor dentro de un intervalo, como altura, peso, velocidad o tiempo de respuesta.</li>\n</ul>\n"
+            },
+            {
+              "title": "Representación gráfica de datos",
+              "content": "\n<p>La representación gráfica depende del tipo de dato. Para datos categóricos, la distribución de frecuencias se presenta normalmente con barras. El eje X contiene categorías y el eje Y la frecuencia absoluta o relativa.</p>\n<p>Para datos numéricos pueden usarse gráficos de dispersión, líneas, histogramas o barras con error. La dispersión sirve para observar relación entre dos variables numéricas. Las barras con error permiten comparar promedios y variabilidad.</p>\n<div class=\"example\"><strong>Ejemplo:</strong> si se registra el color de computadoras en un campus, el gráfico de barras es adecuado porque compara categorías. Si se relacionan horas de estudio con nota, conviene un gráfico de dispersión porque ambas variables son numéricas.</div>\n<p>Una gráfica académica debe tener número, título completo, eje X, eje Y y contexto suficiente para interpretarse.</p>\n"
+            },
+            {
+              "title": "Media aritmética",
+              "content": "\n<p>La media aritmética o promedio se obtiene sumando todas las observaciones y dividiendo entre la cantidad de observaciones. Sirve para resumir un valor típico, pero puede verse afectada por valores extremos.</p>\n<div class=\"example\"><strong>Ejemplo de la clase:</strong> con nueve observaciones de longitud de cable, la suma total es 83,7 y al dividir entre 9 se obtiene una media de 9,3.</div>\n<p>En informática, la media puede usarse para resumir tiempos de respuesta, uso promedio de memoria, cantidad media de errores o rendimiento promedio. Sin embargo, siempre conviene acompañarla de una medida de variación.</p>\n"
+            },
+            {
+              "title": "Mediana",
+              "content": "\n<p>La mediana es el punto medio de una distribución. Para encontrarla, primero se ordenan los datos de menor a mayor. Si hay un número impar de observaciones, la mediana es el valor central. Si hay un número par, se promedian los dos valores centrales.</p>\n<p>La mediana es útil cuando hay valores extremos. Por ejemplo, si la mayoría de tiempos de respuesta son bajos pero una prueba se dispara por un fallo, la mediana puede representar mejor el comportamiento típico que la media.</p>\n<div class=\"formula\">Paso clave: ordenar antes de calcular la mediana.</div>\n"
+            },
+            {
+              "title": "Moda",
+              "content": "\n<p>La moda es el valor que ocurre con mayor frecuencia. Puede aplicarse a datos numéricos o categóricos. En categorías, ayuda a identificar la opción más común; en números, indica el valor repetido con mayor frecuencia.</p>\n<div class=\"example\"><strong>Ejemplo:</strong> si las pérdidas de conexión diaria son 3, 2, 4, 2, 1, 3, 3, 4, 3 y 5, la moda es 3 porque aparece más veces.</div>\n<p>Puede haber una moda, varias modas o ninguna moda clara si todos los valores aparecen con la misma frecuencia.</p>\n"
+            },
+            {
+              "title": "Rango",
+              "content": "\n<p>El rango mide la amplitud total de los datos. Se calcula restando el valor mínimo al valor máximo.</p>\n<div class=\"formula\">Rango = valor máximo - valor mínimo.</div>\n<p>En el ejemplo de longitudes de cable, si el mínimo es 7,9 y el máximo 10,3, el rango es 2,4. Esto indica cuánto se separan los extremos de la distribución.</p>\n<p>El rango es fácil de calcular, pero depende solo de dos valores. Por eso se complementa con varianza o desviación estándar.</p>\n"
+            },
+            {
+              "title": "Varianza y desviación estándar",
+              "content": "\n<p>La varianza mide la dispersión de los datos respecto a la media. En la fórmula muestral se resta cada observación menos la media, se eleva al cuadrado, se suman esos valores y se divide entre n - 1.</p>\n<div class=\"formula\">Varianza muestral = suma de (observación - media)² / (n - 1).</div>\n<p>La desviación estándar es la raíz cuadrada de la varianza. Su ventaja es que se interpreta en las mismas unidades que los datos. Si los datos están en metros, la desviación estándar queda en metros; si están en milisegundos, queda en milisegundos.</p>\n<p>Una desviación estándar baja indica datos agrupados cerca de la media. Una desviación estándar alta indica mayor dispersión.</p>\n"
+            },
+            {
+              "title": "Ejemplo integrado con tiempos de respuesta",
+              "content": "\n<div class=\"example\">\n  Datos: 120, 150, 110, 130, 140<br>\n  Media = (120 + 150 + 110 + 130 + 140) / 5 = 130 ms<br>\n  Mediana = 130 ms<br>\n  Rango = 150 - 110 = 40 ms<br>\n  Moda = no hay moda si todos los valores aparecen una sola vez.\n</div>\n<p>Interpretación: el promedio de 130 ms resume el tiempo típico de respuesta, pero el rango de 40 ms indica diferencia entre la prueba más rápida y la más lenta. Como no hay moda, ningún valor domina la distribución.</p>\n<p>En resultados académicos, el cálculo debe ir acompañado de interpretación. No basta con escribir el valor; se debe explicar qué significa para el problema investigado.</p>\n"
+            },
+            {
+              "title": "Ética: concepto e importancia",
+              "content": "\n<p>La ética se relaciona con el carácter, el comportamiento y las decisiones sobre lo correcto e incorrecto. En investigación, la ética no es un agregado externo: define la confianza en los datos, los autores, las fuentes, los métodos y los resultados.</p>\n<p>La ética aplica a profesiones y actividades sociales porque toda producción de conocimiento puede afectar a otras personas. En investigación científica, actuar éticamente implica no plagiar, no fabricar datos, no manipular resultados, reconocer fuentes, reportar métodos y ser honesto con las limitaciones.</p>\n<div class=\"warning\"><strong>Idea clave:</strong> un resultado puede parecer técnicamente sofisticado, pero si se obtuvo con fraude o plagio, pierde validez científica.</div>\n"
+            },
+            {
+              "title": "Casos de fraude científico y plagio",
+              "content": "\n<p>La clase presenta casos para mostrar que la falta de ética puede ocurrir incluso en personas con prestigio académico o político.</p>\n<ul class=\"clean-list\">\n  <li><strong>Diederik Stapel:</strong> psicólogo social que admitió fabricación y manipulación de datos en múltiples publicaciones. El caso muestra que reputación y cargo no garantizan integridad.</li>\n  <li><strong>Hwang Woo Suk:</strong> investigador asociado a publicaciones fraudulentas sobre células madre, con problemas de fabricación y falsificación de datos, además de violaciones éticas en la obtención de óvulos humanos.</li>\n  <li><strong>Enrique Peña Nieto:</strong> caso usado para discutir plagio académico en una tesis, por uso de párrafos sin crédito adecuado.</li>\n</ul>\n<p>Estos casos enseñan que la ética se verifica en prácticas concretas: cómo se obtienen datos, cómo se citan fuentes, cómo se reportan resultados y cómo se corrigen errores.</p>\n"
+            },
+            {
+              "title": "Características y obstáculos del investigador",
+              "content": "\n<p>La clase también plantea quién realiza la investigación. Un investigador requiere características personales y conocimiento especializado.</p>\n<div class=\"two-col\">\n  <div class=\"part-card\"><strong>Características deseables</strong><span>Creatividad, objetividad, pensamiento crítico, percepción, cooperación, honestidad, amor por la verdad, modestia, servicio y ética.</span></div>\n  <div class=\"part-card\"><strong>Conocimiento</strong><span>Dominio del tema y comprensión del método científico.</span></div>\n</div>\n<p>También existen obstáculos personales y socioculturales que pueden afectar la investigación:</p>\n<ul class=\"clean-list\">\n  <li><strong>Limitaciones personales:</strong> idioma, tecnología, memoria, técnicas, impulsividad y recursos.</li>\n  <li><strong>Limitaciones socioculturales:</strong> etnocentrismo, subjetividad, autoritarismo, dogmatismo, impresionismo, estereotipos y especialismo.</li>\n</ul>\n<p>Reconocer estos obstáculos ayuda a diseñar investigaciones más críticas y menos sesgadas.</p>\n"
+            },
+            {
+              "title": "Revisión por pares y retractación",
+              "content": "\n<p>La clase menciona el trabajo de revisores y autores para mostrar que la ciencia es un proceso colectivo. La revisión por pares consume una enorme cantidad de tiempo global, pero cumple una función importante: evaluar manuscritos, detectar problemas y mejorar la calidad de la literatura científica.</p>\n<p>Aun así, el sistema no es perfecto. Pueden publicarse trabajos con errores o fraude. Por eso existen mecanismos como correcciones, expresiones de preocupación y retractaciones.</p>\n<p>Una retractación no borra el problema, pero permite advertir formalmente que un artículo no debe seguir usándose como evidencia confiable. Esto conecta directamente con la ética: la ciencia también debe corregirse a sí misma.</p>\n"
+            }
+          ]
+        }
+      ],
+      "questions": [
+        {
+          "module_id": "clase-06",
+          "type": "short",
+          "prompt": "Redacte un objetivo general para una investigación sobre eficiencia de algoritmos de ordenamiento.",
+          "keywords": [
+            "comparar",
+            "algoritmos",
+            "tiempo",
+            "memoria",
+            "rendimiento"
+          ],
+          "explanation": "Debe incluir verbo en infinitivo, qué se estudia, cómo se evaluará y para qué."
+        },
+        {
+          "module_id": "clase-06",
+          "type": "choice",
+          "prompt": "¿Qué tipo de conector es “por consiguiente”?",
+          "options": [
+            "Causa/efecto",
+            "Adición",
+            "Contraste",
+            "Ejemplificación"
+          ],
+          "answer": "Causa/efecto",
+          "explanation": "Indica que una afirmación deriva como consecuencia de otra."
+        },
+        {
+          "module_id": "clase-08",
+          "type": "choice",
+          "prompt": "Tiempo de respuesta de un servidor es un dato:",
+          "options": [
+            "Numérico continuo",
+            "Categórico nominal",
+            "Categórico ordinal",
+            "Numérico discreto"
+          ],
+          "answer": "Numérico continuo",
+          "explanation": "El tiempo puede tomar valores decimales dentro de un intervalo."
+        },
+        {
+          "module_id": "clase-09",
+          "type": "short",
+          "prompt": "Calcule la media de 120, 150, 110, 130 y 140.",
+          "keywords": [
+            "130"
+          ],
+          "explanation": "La suma es 650 y 650 dividido entre 5 es 130 ms."
+        }
+      ],
+      "checklist": [
+        "Sé redactar objetivos con fórmula completa.",
+        "Distingo población y muestra.",
+        "Clasifico datos nominales, ordinales, discretos y continuos.",
+        "Calculo media, mediana, moda, rango y desviación estándar.",
+        "Interpreto gráficos de barras, dispersión y barras con error.",
+        "Sé diferenciar precisión y exactitud.",
+        "Puedo explicar plagio y fraude científico.",
+        "Puedo redactar resultados con párrafo descriptivo antes de la figura.",
+        "Puedo numerar y titular correctamente una figura académica."
+      ],
+      "graphs": [
+        {
+          "id": "colores-computadora",
+          "type": "bar",
+          "title": "Figura 1. Frecuencia de computadoras según color en el Campus Sarapiquí, UNA, 2026",
+          "description": "La figura resume frecuencias absolutas de computadoras según color. La variable es categórica nominal, por lo que las barras permiten comparar categorías sin orden.",
+          "x_label": "Color de computadora",
+          "y_label": "Frecuencia absoluta",
+          "data": [
+            {
+              "label": "Violeta",
+              "value": 15
+            },
+            {
+              "label": "Rosa",
+              "value": 25
+            },
+            {
+              "label": "Blanco",
+              "value": 50
+            }
+          ],
+          "analysis": [
+            {
+              "question": "¿Qué color tiene mayor frecuencia?",
+              "answer": "Blanco, porque su barra alcanza 50 y supera a rosa y violeta."
+            },
+            {
+              "question": "¿Qué tipo de dato es color?",
+              "answer": "Categórico nominal, porque son categorías sin orden jerárquico."
+            }
+          ]
+        },
+        {
+          "id": "tiempos-servidor",
+          "type": "line",
+          "title": "Figura 2. Tiempo de respuesta de un servidor en cinco pruebas de rendimiento, 2026",
+          "description": "La figura muestra cinco mediciones de tiempo de respuesta. Permite calcular media, mediana y rango.",
+          "x_label": "Pruebas de rendimiento",
+          "y_label": "Tiempo de respuesta (ms)",
+          "data": [
+            {
+              "label": "Prueba 1",
+              "value": 120
+            },
+            {
+              "label": "Prueba 2",
+              "value": 150
+            },
+            {
+              "label": "Prueba 3",
+              "value": 110
+            },
+            {
+              "label": "Prueba 4",
+              "value": 130
+            },
+            {
+              "label": "Prueba 5",
+              "value": 140
+            }
+          ],
+          "analysis": [
+            {
+              "question": "¿Cuál es la media?",
+              "answer": "130 ms, porque la suma es 650 y se divide entre 5."
+            },
+            {
+              "question": "¿Cuál es el rango?",
+              "answer": "40 ms, porque 150 - 110 = 40."
+            }
+          ]
+        },
+        {
+          "id": "horas-nota",
+          "type": "scatter",
+          "title": "Figura 3. Relación entre horas de estudio y calificación obtenida en un examen de investigación, 2026",
+          "description": "La figura relaciona horas de estudio con calificación. La tendencia permite discutir asociación, no causalidad automática.",
+          "x_label": "Horas de estudio",
+          "y_label": "Calificación obtenida",
+          "data": [
+            {
+              "x": 1,
+              "y": 55
+            },
+            {
+              "x": 2,
+              "y": 60
+            },
+            {
+              "x": 3,
+              "y": 66
+            },
+            {
+              "x": 4,
+              "y": 70
+            },
+            {
+              "x": 5,
+              "y": 78
+            },
+            {
+              "x": 6,
+              "y": 82
+            },
+            {
+              "x": 7,
+              "y": 88
+            },
+            {
+              "x": 8,
+              "y": 92
+            }
+          ],
+          "analysis": [
+            {
+              "question": "¿La relación parece positiva, negativa o nula?",
+              "answer": "Positiva, porque al aumentar las horas también aumentan las calificaciones."
+            },
+            {
+              "question": "¿Puede afirmarse causalidad?",
+              "answer": "No solo con la gráfica; muestra asociación pero no controla otros factores."
+            }
+          ]
+        },
+        {
+          "id": "algoritmos-error",
+          "type": "errorbar",
+          "title": "Figura 4. Tiempo promedio de ejecución de algoritmos de ordenamiento con desviación estándar, 2026",
+          "description": "La figura compara tiempos promedio y desviación estándar. Las barras de error comunican variabilidad.",
+          "x_label": "Algoritmo",
+          "y_label": "Tiempo promedio de ejecución en milisegundos",
+          "data": [
+            {
+              "label": "Bubble Sort",
+              "mean": 520,
+              "sd": 60
+            },
+            {
+              "label": "Insertion Sort",
+              "mean": 310,
+              "sd": 45
+            },
+            {
+              "label": "Merge Sort",
+              "mean": 140,
+              "sd": 20
+            },
+            {
+              "label": "Quick Sort",
+              "mean": 120,
+              "sd": 25
+            }
+          ],
+          "analysis": [
+            {
+              "question": "¿Cuál algoritmo presenta menor tiempo promedio?",
+              "answer": "Quick Sort, porque tiene el promedio más bajo: 120 ms."
+            },
+            {
+              "question": "¿Qué representa la barra de error?",
+              "answer": "La desviación estándar, es decir, la variación alrededor del promedio."
+            }
+          ]
+        },
+        {
+          "id": "precision-exactitud",
+          "type": "targets",
+          "title": "Figura 5. Precisión y exactitud en mediciones experimentales, 2026",
+          "description": "La figura usa dianas para distinguir agrupación de mediciones y cercanía al valor real.",
+          "x_label": "Caso de medición",
+          "y_label": "Cercanía al valor real",
+          "data": [],
+          "analysis": [
+            {
+              "question": "¿Cuál caso es más confiable?",
+              "answer": "Alta precisión y alta exactitud, porque los puntos están agrupados cerca del centro."
+            },
+            {
+              "question": "¿Cuál caso está agrupado lejos del valor real?",
+              "answer": "Alta precisión y baja exactitud."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

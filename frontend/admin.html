@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin | StudyLab</title>
+  <link rel="stylesheet" href="/vendor/sweetalert2.min.css">
+  <link rel="stylesheet" href="/assets/css/app.css">
+  <script src="/vendor/sweetalert2.local.js" defer></script>
+  <script src="/assets/js/app.js" defer></script>
+</head>
+<body data-page="admin">
+  <header class="site-header">
+    <nav class="top-nav">
+      <a class="brand" href="/">StudyLab</a>
+      <div class="nav-links">
+        <a href="/" data-nav="inicio">Inicio</a>
+        <a href="/teoria.html" data-nav="teoria">Teoría</a>
+        <a href="/preguntas.html" data-nav="preguntas">Preguntas</a>
+        <a href="/graficas.html" data-nav="graficas">Gráficas</a>
+        <a href="/simulador.html" data-nav="simulador">Simulador</a>
+        <a href="/checklist.html" data-nav="checklist">Checklist</a>
+        <a href="/admin.html" data-nav="admin">Admin</a>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="page-title">
+      <span class="kicker">Panel admin</span>
+      <h1>Gestión de contenido</h1>
+      <p>Token local por defecto: admin. Cambiar con la variable STUDY_ADMIN_TOKEN en producción local.</p>
+    </section>
+    <section id="adminArea" class="admin-layout">
+      <article class="admin-card">
+        <h2>Acceso local</h2>
+        <label>Token admin<input id="adminToken" type="password" value="admin"></label>
+        <p>Este token se envía como cabecera local. Para cambiarlo, inicia el servidor con STUDY_ADMIN_TOKEN.</p>
+      </article>
+      <article class="admin-card">
+        <h2>Nueva materia</h2>
+        <form id="adminCourseForm">
+          <label>ID de materia<input id="courseId" placeholder="programacion-1" required></label>
+          <label>Título<input id="courseTitleInput" required></label>
+          <label>Subtítulo<input id="courseSubtitle"></label>
+          <label>Descripción<textarea id="courseDescriptionInput"></textarea></label>
+          <button class="btn primary" type="submit">Guardar materia</button>
+        </form>
+      </article>
+      <article class="admin-card">
+        <h2>Nuevo módulo</h2>
+        <form id="adminModuleForm">
+          <label>Materia<input id="moduleCourse" value="mici"></label>
+          <label>ID de módulo<input id="moduleId" placeholder="unidad-01" required></label>
+          <label>Título<input id="moduleTitle" required></label>
+          <label>Resumen<textarea id="moduleSummary"></textarea></label>
+          <button class="btn primary" type="submit">Guardar módulo</button>
+        </form>
+      </article>
+      <article class="admin-card">
+        <h2>Bloque de teoría</h2>
+        <form id="adminLessonForm">
+          <label>ID de módulo<input id="lessonModule" value="clase-06" required></label>
+          <label>Título<input id="lessonTitle" required></label>
+          <label>Contenido<textarea id="lessonContent" required></textarea></label>
+          <button class="btn primary" type="submit">Guardar teoría</button>
+        </form>
+      </article>
+      <article class="admin-card">
+        <h2>Nueva pregunta</h2>
+        <form id="adminQuestionForm">
+          <label>Materia<input id="qCourse" value="mici"></label>
+          <label>Módulo<input id="qModule" value="clase-06"></label>
+          <label>Tipo<select id="qType"><option value="choice">Selección única</option><option value="short">Respuesta corta</option></select></label>
+          <label>Enunciado<textarea id="qPrompt" required></textarea></label>
+          <label>Opciones, una por línea<textarea id="qOptions"></textarea></label>
+          <label>Respuesta correcta<input id="qAnswer"></label>
+          <label>Palabras clave, separadas por coma<input id="qKeywords"></label>
+          <label>Explicación<textarea id="qExplanation"></textarea></label>
+          <button class="btn primary" type="submit">Guardar pregunta</button>
+        </form>
+      </article>
+      <article class="admin-card">
+        <h2>Nuevo checklist</h2>
+        <form id="adminChecklistForm">
+          <label>Materia<input id="checkCourse" value="mici"></label>
+          <label>Texto del ítem<textarea id="checkText" required></textarea></label>
+          <button class="btn primary" type="submit">Guardar ítem</button>
+        </form>
+      </article>
+      <article class="admin-card">
+        <h2>Flujo recomendado</h2>
+        <ol>
+          <li>Crear módulos de teoría desde seed o API.</li>
+          <li>Agregar preguntas manuales de alta calidad.</li>
+          <li>Usar plantillas para ampliar variaciones.</li>
+          <li>Probar simulador y revisar feedback.</li>
+          <li>Publicar la materia para estudiantes.</li>
+        </ol>
+      </article>
+    </section>
+  </main>
+  <footer class="site-footer"><a href="/">Volver al inicio</a></footer>
+</body>
+</html>

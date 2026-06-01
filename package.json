@@ -1,0 +1,9 @@
+{
+  "name": "guia-mici",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Guia interactiva de estudio para Metodos de Investigacion Cientifica en Informatica.",
+  "scripts": {
+    "build": "rm -rf dist && mkdir -p dist && cp -R public/. dist/"
+  }
+}

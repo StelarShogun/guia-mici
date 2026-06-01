@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teoría | StudyLab</title>
+  <link rel="stylesheet" href="vendor/sweetalert2.min.css">
+  <link rel="stylesheet" href="assets/css/app.css">
+  <script src="vendor/sweetalert2.local.js" defer></script>
+  <script src="assets/js/app.js" defer></script>
+</head>
+<body data-page="teoria">
+  <header class="site-header">
+    <nav class="top-nav">
+      <a class="brand" href="index.html">StudyLab</a>
+      <div class="nav-links">
+        <a href="index.html" data-nav="inicio">Inicio</a>
+        <a href="teoria.html" data-nav="teoria">Teoría</a>
+        <a href="preguntas.html" data-nav="preguntas">Preguntas</a>
+        <a href="graficas.html" data-nav="graficas">Gráficas</a>
+        <a href="simulador.html" data-nav="simulador">Simulador</a>
+        <a href="checklist.html" data-nav="checklist">Checklist</a>
+        <a href="admin.html" data-nav="admin">Admin</a>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="page-title">
+      <span class="kicker">Teoría</span>
+      <h1>Contenido por módulos</h1>
+      <p>La teoría se carga desde la base de datos, por lo que puede reutilizarse para cualquier materia.</p>
+      <div class="toolbar"><select id="courseSelector"></select></div>
+    </section>
+    <div id="lessons"></div>
+  </main>
+  <footer class="site-footer"><a href="index.html">Volver al inicio</a></footer>
+</body>
+</html>
