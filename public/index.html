@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="vendor/sweetalert2.min.css">
   <link rel="stylesheet" href="assets/css/app.css">
   <script src="vendor/sweetalert2.local.js" defer></script>
+  <script src="data/site-data.js" defer></script>
   <script src="assets/js/app.js" defer></script>
 </head>
 <body data-page="inicio">
@@ -20,7 +21,6 @@
         <a href="graficas.html" data-nav="graficas">Gráficas</a>
         <a href="simulador.html" data-nav="simulador">Simulador</a>
         <a href="checklist.html" data-nav="checklist">Checklist</a>
-        <a href="admin.html" data-nav="admin">Admin</a>
       </div>
     </nav>
   </header>
@@ -28,10 +28,9 @@
     <section class="hero">
       <span class="kicker">Plataforma reutilizable</span>
       <h1>Guías interactivas para cualquier materia</h1>
-      <p>Estudia teoría, practica preguntas, analiza gráficas, realiza simuladores y guarda progreso local. El contenido se administra desde backend y puede reutilizarse para nuevas materias.</p>
+      <p>Estudia teoría, practica preguntas, analiza gráficas, realiza simuladores y guarda progreso local. El contenido se organiza en archivos estaticos y puede reutilizarse para nuevas materias.</p>
       <div class="toolbar">
         <a class="btn primary" href="course.html">Abrir materia activa</a>
-        <a class="btn" href="admin.html">Gestionar contenido</a>
       </div>
     </section>
     <section class="panel">
@@ -67,6 +66,6 @@
       </div>
     </section>
   </main>
-  <footer class="site-footer">FastAPI + SQLite + HTML/CSS/JS vanilla.</footer>
+  <footer class="site-footer">Sitio estatico con HTML, CSS y JavaScript vanilla.</footer>
 </body>
 </html>

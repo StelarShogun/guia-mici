@@ -10,6 +10,10 @@ const svgNS = "http://www.w3.org/2000/svg";
 
 async function loadSiteData() {
   if (!siteDataPromise) {
+    if (window.STUDY_SITE_DATA) {
+      siteDataPromise = Promise.resolve(window.STUDY_SITE_DATA);
+      return siteDataPromise;
+    }
     siteDataPromise = fetch("data/site.json").then(response => {
       if (!response.ok) throw new Error("No se pudo cargar data/site.json");
       return response.json();
@@ -320,6 +324,7 @@ async function renderGraphs() {
   const graphs = await api(`/api/courses/${activeCourse}/graphs`);
   root.innerHTML = graphs.map(graph => `
     <article class="graph-card">
+      <h2 class="figure-title">${graph.title}</h2>
       <p>${graph.description}</p>
       <div class="chart-wrap"><svg class="chart" id="graph-${graph.id}"></svg></div>
       <h3>Preguntas de análisis</h3>
@@ -345,9 +350,32 @@ function clearSvg(svg, width = 760, height = 410) {
   svg.appendChild(svgEl("rect", { x: 0, y: 0, width, height, fill: "#0d1b2d" }));
 }
 
+function wrappedSvgText(svg, text, attrs, maxWidth, lineHeight = 17) {
+  const node = svgEl("text", attrs);
+  const words = String(text).split(/\s+/);
+  let line = [];
+  let tspan = svgEl("tspan", { x: attrs.x, dy: 0 });
+  node.appendChild(tspan);
+  svg.appendChild(node);
+
+  words.forEach(word => {
+    line.push(word);
+    tspan.textContent = line.join(" ");
+    if (line.length > 1 && tspan.getComputedTextLength && tspan.getComputedTextLength() > maxWidth) {
+      line.pop();
+      tspan.textContent = line.join(" ");
+      line = [word];
+      tspan = svgEl("tspan", { x: attrs.x, dy: lineHeight });
+      tspan.textContent = word;
+      node.appendChild(tspan);
+    }
+  });
+
+  return node;
+}
+
 function drawAxes(svg, cfg) {
   const { width, height, left, right, top, bottom, title, xLabel, yLabel } = cfg;
-  svg.appendChild(svgEl("text", { x: width / 2, y: 28, "text-anchor": "middle", fill: "#edf6fb", "font-size": 16, "font-weight": 800 }, title));
   svg.appendChild(svgEl("line", { x1: left, y1: height - bottom, x2: width - right, y2: height - bottom, stroke: "#8fc7ee", "stroke-width": 1.5 }));
   svg.appendChild(svgEl("line", { x1: left, y1: top, x2: left, y2: height - bottom, stroke: "#8fc7ee", "stroke-width": 1.5 }));
   svg.appendChild(svgEl("text", { x: (left + width - right) / 2, y: height - 16, "text-anchor": "middle", fill: "#a9bed0", "font-size": 13, "font-weight": 700 }, xLabel));
@@ -421,7 +449,6 @@ function drawErrorBars(svg, data, cfg) {
 
 function drawTargets(svg, graph) {
   clearSvg(svg, 760, 410);
-  svg.appendChild(svgEl("text", { x: 380, y: 28, "text-anchor": "middle", fill: "#edf6fb", "font-size": 16, "font-weight": 800 }, graph.title));
   const panels = [
     [142, 150, "A. Alta precisión y alta exactitud", [[-4, -3], [4, 2], [1, -5], [-2, 4], [3, -1]]],
     [315, 150, "B. Alta precisión y baja exactitud", [[28, -23], [33, -19], [29, -16], [36, -22], [31, -27]]],
@@ -510,7 +537,7 @@ async function renderAdmin() {
   if (!$("#adminArea")) return;
   const notice = document.createElement("div");
   notice.className = "warning";
-  notice.innerHTML = "<strong>Versión estática:</strong> en Vercel el admin no guarda cambios permanentes. Edita <code>data/site.json</code> o usa la versión FastAPI local para administrar contenido.";
+  notice.innerHTML = "<strong>Versión estática:</strong> en Vercel el admin no guarda cambios permanentes. Para cambiar contenido, edita <code>data/site.json</code> y vuelve a desplegar.";
   $("#adminArea").prepend(notice);
   bindAdminForm("#adminCourseForm", "/api/admin/courses", () => ({
     id: $("#courseId").value,
